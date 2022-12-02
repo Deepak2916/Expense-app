@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+    <title>signup</title>
 </head>
 <body>
     <div class="container">
         <Form action="" id="formId" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name"> 
             <label for="email">email</label>
             <input type="email" id="email">
+            <input type="number" id="number">
+            <label for="number">Ph-number</label>
             <label for="password">password</label>
             <input type="password" id="password">
-            <button type="submit">login</button>
+            <button type="submit">singup</button>
+
         </Form>
         <ul>
-            <li><a href="./signup.html">New user Signup</a></li>
+            <li><a href="./login.html">Existing user Login</a></li>
         </ul>
     </div>  
     <div id="status"></div> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
-    <script src="../DOM/login.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="../DOM/signup.js"></script>
 </body>
 </html>

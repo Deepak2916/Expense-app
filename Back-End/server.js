@@ -5,7 +5,7 @@ const sequelize=require('./util/database')
 const cors=require('cors')
 
 const app= express()
-const SignupRouter=require('./routes/signup')
+const SignupRouter=require('./routers/signup')
 app.use(cors())
 app.use(bodyParser.json())
 app.use('/user',SignupRouter)
